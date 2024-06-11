@@ -1,0 +1,122 @@
+{
+    "users": [
+        {
+        "username": "admin",
+        "password": "admin",
+        "email": "admin@test.com",
+        "isAdmin":"True",
+        "classe":"none"
+        },
+
+        {
+        "username": "Tawan-François",
+        "password": "tawan",
+        "email": "tawan-francois.asselain@efrei.net",
+        "isAdmin": "False",
+        "classe":"Développement",
+        "notes": {
+            "HTML" : "15/20",
+            "Communication" : "17/20"
+        },
+        "absences": [
+            "29/05/2024",
+            "30/05/2024"
+        ]
+        },
+        {
+        "username": "user",
+        "password": "user",
+        "email": "user@design.com",
+        "isAdmin": "False",
+        "classe":"Design",
+        "notes": {
+            "Figma" : "15/20",
+            "Communication" : "17/20"
+        },
+        "absences": [
+            "29/05/2024",
+            "30/05/2024"
+        ]
+        }
+    ],
+
+    "classes": [
+        {
+            "name":"Développement",
+            "modules":["React","HTML","Communication","Anglais"],
+            "cours": [
+                
+                {
+
+                   
+                    "title": "Anglais",
+                    "start": "2024-06-03T08:00:00",
+                    "end": "2024-06-03T10:00:00",
+                    "prof": "Madame Anglais",
+                    "lieu": "Visio"
+
+                },
+
+                {
+
+
+                    "title": "React",
+                    "start": "2024-06-03T11:00:00",
+                    "end": "2024-06-03T14:00:00",
+                    "prof": "Melvin Bissor",
+                    "lieu": "Campus"
+    
+                },
+
+                {
+
+                    
+                    "title": "HTML",
+                    "start": "2024-06-04T11:00:00",
+                    "end": "2024-06-04T19:00:00",
+                    "prof": "Madame HTML",
+                    "lieu": "Campus"
+        
+                }
+        
+        
+        
+            ]
+              
+        },
+        {
+            "name":"Design",
+            "modules":["Figma","Photoshop","Communication","Anglais"],
+            "cours": [
+                
+                {
+
+                "title": "Anglais",
+                "start": "2024-06-03T08:00:00",
+                "end": "2024-06-03T10:00:00",
+                "prof": "Madame Anglais",
+                "lieu": "Visio"
+
+                },
+
+                {
+
+   
+                "title": "Figma",
+                "start": "2024-06-03T11:00:00",
+                "end": "2024-06-03T14:00:00",
+                "prof": "Monsieur Figma",
+                "lieu": "Visio"
+    
+                }
+        
+        
+        
+            ]
+              
+        }
+
+        
+    ]
+        
+}
